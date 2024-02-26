@@ -209,25 +209,30 @@ textarea {
 }
 
 @media screen and (max-width: 576px) {
+    header {
+        background-image: none;
+    }
+    .banner .profile-picture {
+        width: 100%;
+    }
     .about{
         padding: 30px;
         margin: 0;
     }
-    .about-info-container {
-        flex-direction: column;
-    }
-    #what-i-do-description {
-        padding: 0;
+    .banner, #what-i-do-description {
+        padding: 20px;
     }
 
-    .skills,
+    nav, nav > ul, .banner, .about-info-container, .skills,
     .resume-container, footer {
         flex-direction: column;
     }
 
-    footer {
-        justify-content: center;
-        padding: 0;
+    .about, footer {
+        padding: 10px;
+    }
+    .btn-primary {
+        margin-bottom: 10px;
     }
 
     .footer-column {
