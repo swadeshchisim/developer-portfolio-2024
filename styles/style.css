@@ -209,6 +209,13 @@ textarea {
 }
 
 @media screen and (max-width: 576px) {
+    .about{
+        padding: 30px;
+        margin: 0;
+    }
+    .about-info-container {
+        flex-direction: column;
+    }
     #what-i-do-description {
         padding: 0;
     }
