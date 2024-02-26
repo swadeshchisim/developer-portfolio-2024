@@ -244,6 +244,18 @@ textarea {
 }
 
 @media screen and (min-width: 576px) and (max-width: 960px) {
+    header {
+        background-image: none;
+    }
+    .banner {
+        flex-direction: column;
+    }
+    .banner .profile-picture {
+        width: 100%;
+    }
+    .btn-primary {
+        margin-bottom: 10px;
+    }
     footer {
         padding: 30px;
     }
