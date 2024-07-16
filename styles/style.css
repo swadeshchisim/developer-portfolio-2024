@@ -54,6 +54,8 @@ nav li {
 }
 
 nav a {
+    color: #474747;
+    font-size: 20px;
     text-decoration: none;
 }
 
@@ -74,11 +76,13 @@ header {
 }
 
 .banner .profile-picture {
-    width: 500px;
+    width: 600px;
+    margin-right: -145px;
+    margin-bottom: -110px;
 }
 
 .banner-content {
-    max-width: 500px;
+    max-width: 700px;
 }
 
 .banner-greeting {
@@ -92,6 +96,14 @@ header {
     font-weight: 700;
     margin-top: 5px;
     margin-bottom: 20px;
+}
+.banner-description {
+    width: 585px;
+    color: #757575;
+    font-size: 18px;   
+}
+.cv-btn {
+    margin-right: 30px;
 }
 
 /* main section styles */
