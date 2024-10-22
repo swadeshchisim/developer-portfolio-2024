@@ -21,6 +21,13 @@
   border: 0;
   padding: 18px 36px;
 }
+
+/* header styles */
+header {
+  background: url(../images/developer.png), url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+}
 /* Nav Styles */
 nav {
     display: flex;
@@ -48,6 +55,14 @@ nav ul li a {
 }
 
 /* Banner Styles */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 35px 0 200px;
+}
+.banner-text {
+  max-width: 580px;
+}
 .banner-greetings {
   color: #474747;
   font-size: 45px;
