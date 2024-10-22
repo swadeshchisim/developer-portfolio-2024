@@ -12,7 +12,7 @@
 .dark-2 {
   color: #474747;
 }
-li .btn {
+.btn {
   color: #FFF;
   font-size: 20px;
   font-weight: 700;
@@ -45,4 +45,25 @@ nav ul li a {
   font-size: 20px;
   font-weight: 400;
   text-decoration: none;
+}
+
+/* Banner Styles */
+.banner-greetings {
+  color: #474747;
+  font-size: 45px;
+  font-weight: 600;
+}
+.banner-title {
+  color: #181818;
+  font-size: 85px;
+  font-weight: 700;
+}
+.banner-description {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.banner-content > .btn {
+  margin-right: 10px;
 }
