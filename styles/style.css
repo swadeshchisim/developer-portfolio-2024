@@ -153,3 +153,45 @@ main {
   font-size: 16px;
   line-height: 28px;
 }
+
+/* Resume Styles */
+.resume-area {
+  padding: 130px 0;
+}
+
+.resume-content {
+  display: flex;
+  gap: 70px;
+  padding: 50px 0 0;
+}
+.education, .experience {
+  padding: 22px 0;
+}
+hr {
+  border: 1px solid #d1d1d1;
+}
+.education-title, .experience-title {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0 0 30px;
+}
+.info-title {
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+  margin: 0;
+}
+.info-subtitle {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+  padding-top: 10px;
+}
+.info-description {
+  color:#757575;
+  font-size: 16px;
+  line-height: 28px;
+  padding-top: 4px;
+}
