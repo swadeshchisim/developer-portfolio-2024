@@ -97,7 +97,7 @@ nav ul li a {
 }
 
 /* Main Styles */
-main {
+main, footer {
   max-width: 1140px;
   margin: 0 auto;
 }
@@ -194,4 +194,44 @@ hr {
   font-size: 16px;
   line-height: 28px;
   padding-top: 4px;
+}
+/* Footer Styles */
+footer {
+  display: flex;
+  gap: 100px;
+}
+.social-description {
+  color:#474747;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.social-icons {
+  display: flex;
+  gap: 20px;
+}
+.contact-title {
+  color: #181818;
+  font-size: 35px;
+  font-weight: 700;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+input,textarea {
+  padding: 18px 30px;
+  border: 0;
+  color: #757575;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  background: #f0f0f0;
+  margin-bottom: 30px;
+}
+
+input[type="submit"] {
+  width: 150px;
 }
