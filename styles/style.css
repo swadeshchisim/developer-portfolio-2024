@@ -107,6 +107,10 @@ main {
   padding: 130px 150px;
   border-radius: 10px;
 }
+.about-bg {
+  border-radius: 10px;
+  background: #FFF8F3;
+}
 .about-items {
   display: flex;
   justify-content: space-around;
@@ -125,4 +129,24 @@ main {
   font-weight: 700;
   line-height: 30px;
   font-weight: 600;
+}
+
+/* What I do Styles */
+
+.skills-container {
+  display: flex;
+  gap: 24px;
+}
+.skill{
+  padding: 30px;
+}
+.skill-title {
+  color: #181818;
+  font-size: 20px;
+  font-weight: 700;
+}
+.skill-description {
+  color: #757575;
+  font-size: 16px;
+  line-height: 28px;
 }
