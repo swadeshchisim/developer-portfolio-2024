@@ -241,7 +241,7 @@ input[type="submit"] {
   display: none;
 }
 @media screen and (max-width: 576px) {
-  .skills-container, .resume-content {
+  .skills-container, .resume-content, footer {
     flex-direction: column;
   }
 }
