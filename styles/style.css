@@ -241,13 +241,22 @@ input[type="submit"] {
   display: none;
 }
 @media screen and (max-width: 576px) {
-  .skills-container, .resume-content, footer {
+  .about-items, 
+  .skills-container, 
+  .resume-content, 
+  footer {
     flex-direction: column;
+  }
+  .about {
+    padding: 0 20px;
+  }
+  footer {
+    gap: 0;
   }
 }
 
-@media screen and (min-width: 576px) and (max-width: 992px) {
+/* @media screen and (min-width: 576px) and (max-width: 992px) {
   .skills-container {
     flex-wrap: wrap;
   }
-}
+} */
