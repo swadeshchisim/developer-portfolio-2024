@@ -241,11 +241,29 @@ input[type="submit"] {
   display: none;
 }
 @media screen and (max-width: 576px) {
+  nav,
+  nav > ul,
+  .banner, 
   .about-items, 
   .skills-container, 
   .resume-content, 
   footer {
     flex-direction: column;
+  }
+  header {
+    background-image: none;
+  }
+  nav > ul {
+    gap: 20px;
+  }
+  .btn {
+    margin-bottom: 20px;
+  }
+  .banner {
+    margin: 20px;
+  }
+  .banner-img img {
+    width: 100%;
   }
   .about {
     padding: 0 20px;
